@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-612dd696ed96d6777d290343ca9cef9d.css?vsn=d"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+    >
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+    >
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+    >
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+    >
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+    >
+    <title>Projeto JS Pizzaria</title>
+</head>
+<body>
+    <header class="top">
+        <h1 class="top__brand">JS Pizzas
+            <span class="top__title">Menu</span>
+        </h1>
+        <div id="topCartContainer">
+            <h2 id="geralCounter">0</h2>
+            <i class="fa-regular fa-cart-shopping"></i>
+        </div>
+    </header>
+    <main>
+        <div class="back__products-cards">
+            <div class="products-cards">
+                <div class="products-cards__item-1">
+                    <img class="products-cards__img-1" src="./assets/pizzas/queijo.png" alt="">
+                    <div id="addBtn1">
+                        <button class="fa-solid fa-circle-plus"></button>
+                    </div>
+                    <span class="products-cards__price">R$ 99,99</span>
+                    <span class="products-cards__title">Título</span>
+                    <p class="products-cards__text">Descrição aleatória.</p>
+                </div>
+                <div class="products-cards__item-2">
+                    <img class="products-cards__img-2" src="./assets/pizzas/queijo.png" alt="">
+                    <div id="addBtn2">
+                        <button class="fa-solid fa-circle-plus"></button>
+                    </div>
+                    <span class="products-cards__price">R$ 99,99</span>
+                    <span class="products-cards__title">Título</span>
+                    <p class="products-cards__text">Descrição aleatória.</p>
+                </div>
+                <div class="products-cards__item-3">
+                    <img class="products-cards__img-3" src="./assets/pizzas/queijo.png" alt="">
+                    <div id="addBtn3">
+                        <button class="fa-solid fa-circle-plus"></button>
+                    </div>
+                    <span class="products-cards__price">R$ 99,99</span>
+                    <span class="products-cards__title">Título</span>
+                    <p class="products-cards__text">Descrição aleatória.</p>
+                </div>
+                <div class="products-cards__item-4">
+                    <img class="products-cards__img-4" src="./assets/pizzas/queijo.png" alt="">
+                    <div id="addBtn4">
+                        <button class="fa-solid fa-circle-plus"></button>
+                    </div>
+                    <span class="products-cards__price">R$ 99,99</span>
+                    <span class="products-cards__title">Título</span>
+                    <p class="products-cards__text">Descrição aleatória.</p>
+                </div>
+                <div class="products-cards__item-5">
+                    <img class="products-cards__img-5" src="./assets/pizzas/queijo.png" alt="">
+                    <div id="addBtn5">
+                        <button class="fa-solid fa-circle-plus"></button>
+                    </div>
+                    <span class="products-cards__price">R$ 99,99</span>
+                    <span class="products-cards__title">Título</span>
+                    <p class="products-cards__text">Descrição aleatória.</p>
+                </div>
+                <div class="products-cards__item-6">
+                    <img class="products-cards__img-6" src="./assets/pizzas/queijo.png" alt="">
+                    <div id="addBtn6">
+                        <button class="fa-solid fa-circle-plus"></button>
+                    </div>
+                    <span class="products-cards__price">R$ 99,99</span>
+                    <span class="products-cards__title">Título</span>
+                    <p class="products-cards__text">Descrição aleatória.</p>
+                </div>
+            </div>
+            <div id="cart">
+                <h1 class="cart__title">Suas Pizzas</h1>
+                <div id="cartItem">
+                    <img src="./assets/pizzas/queijo.png" alt="" class="cart__item-img">
+                    <div class="cart__item-txt">
+                        <h2 class="cart__item-description">Portuguesa (G)</h2>
+                        <h2 class="cart__item-price">R$ 59,90</h2>
+                    </div>
+                    <div class="cart__qt-control">
+                        <div id="removeItem">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="4" viewBox="0 0 26 4" fill="none">
+                                    <path d="M25.25 3.66665H0.75V0.333313H25.25V3.66665Z" fill="black"/>
+                                  </svg>
+                            </a>
+                        </div>
+                        <span id="cartCounter">0</span>
+                            <div id="addItem">
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
+                                    <path d="M25.25 13.6666H14.75V23.6666H11.25V13.6666H0.75V10.3333H11.25V0.333313H14.75V10.3333H25.25V13.6666Z" fill="black"/>
+                                    </svg>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+                <div class="cart__container-1">
+                    <h2>Subtotal</h2>
+                    <h2>R$0,00</h2>
+                </div>
+                <div class="cart__container-2">
+                    <h2>Desconto (10%)</h2>
+                    <h2>R$0,00</h2>
+                </div>
+                <div class="cart__container-3">
+                    <h2>Total</h2>
+                    <h2>R$0,00</h2>
+                </div>
+                <div class="cart__Confirm-Btn">
+                    <button id="cartConfirmBtn">
+                        <h2>Confirmar</h2>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="modal" class="background-modal">
+            <div class="modal-pizza">
+                <img src="./assets/pizzas/queijo.png" alt="" id="" class="modal-pizza__img">
+                <div class="modal-pizza__details">
+                    <h1 class="modal-pizza__tx-title">Sabor da Pizza</h1>
+                    <div class="modal-pizza__tx-ingredientes">Descrição aleatória</div>
+                    <div class="modal-pizza__tx-tamanho">Tamanho</div>
+                    <div class="modal-pizza__controle-tamanhos">
+                        <button id="smallBtn" class="modal-pizza__tamanho-1">Pequena <span>320g</span></button>
+                        <button id="mediumBtn" class="modal-pizza__tamanho-2">Média <span>530g</span></button>
+                        <button id="bigBtn" class="modal-pizza__tamanho-3">Grande <span>860g</span></button>
+                    </div>
+                    <div class="modal-pizza__tx-preço">Preço</div>
+                    <div class="modal-pizza__qtd">
+                        <div class="modal-pizza__tx-valor">R$ 99,99</div>
+                        <div class="modal-pizza__controle-qtd">
+                            <button id="modalDecreaseBtn" class="modal-pizza__menos">-</button>
+                            <div id="modalCounter" class="modal-pizza__tx-qtd">0</div>
+                            <button id="modalAddBtn" class="modal-pizza__mais">+</button>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="modalConfirmBtn" class="modal-pizza__btn modal-pizza__btn--adicionar">Adicionar ao carrinho</button>
+                        <button id="modalCancelBtn" class="modal-pizza__btn modal-pizza__btn--cancelar">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="baseboard">
+            <h2 class="baseboard__dev">Developed by Edeer</h2>
+            <div class="baseboard__social-media">
+                <h2 class="social-media__txt">Follow us on networks:</h2>
+                <div class="social-media__btn">
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <address class="baseboard__address">
+                <h2>Endereco, 25 Centro Santos-SP.</h2>
+            </address>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
