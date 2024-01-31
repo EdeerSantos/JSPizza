@@ -33,6 +33,9 @@
       rel="stylesheet"
       href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
     >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
     <title>Projeto JS Pizzaria</title>
 </head>
 <body>
@@ -40,67 +43,84 @@
         <h1 class="top__brand">JS Pizzas
             <span class="top__title">Menu</span>
         </h1>
-        <div id="topCartContainer">
-            <h2 id="geralCounter">0</h2>
-            <i class="fa-regular fa-cart-shopping"></i>
-        </div>
     </header>
+    <div class="home">
+        
+    </div>
     <main>
+        <div class="nav__main">
+            <div id="topCartContainer">
+                <h2 id="geralCounter">0</h2>
+                <i class="fa-regular fa-cart-shopping"></i>
+            </div>
+        </div>
         <div class="back__products-cards">
             <div class="products-cards">
                 <div class="products-cards__item-1">
-                    <img class="products-cards__img-1" src="./assets/pizzas/queijo.png" alt="">
-                    <div id="addBtn1">
-                        <button class="fa-solid fa-circle-plus"></button>
+                    <div class="cards__container-1">
+                        <img class="products-cards__img-1" src="./assets/pizzas/queijo.png" alt="">
+                        <div id="addBtn1">
+                            <button class="fa-solid fa-circle-plus"></button>
+                        </div>
                     </div>
-                    <span class="products-cards__price">R$ 99,99</span>
-                    <span class="products-cards__title">Título</span>
-                    <p class="products-cards__text">Descrição aleatória.</p>
+                    <span class="products-cards__price">R$ 49,99</span>
+                    <span class="products-cards__title">Portuguesa</span>
+                    <p class="products-cards__text">Molho, mussarela, calabresa e catupiry</p>
                 </div>
                 <div class="products-cards__item-2">
-                    <img class="products-cards__img-2" src="./assets/pizzas/queijo.png" alt="">
-                    <div id="addBtn2">
-                        <button class="fa-solid fa-circle-plus"></button>
+                    <div class="cards__container-2">
+                        <img class="products-cards__img-2" src="./assets/pizzas/queijo.png" alt="">
+                        <div id="addBtn2">
+                            <button class="fa-solid fa-circle-plus"></button>
+                        </div>
                     </div>
-                    <span class="products-cards__price">R$ 99,99</span>
-                    <span class="products-cards__title">Título</span>
-                    <p class="products-cards__text">Descrição aleatória.</p>
+                    <span class="products-cards__price">R$ 37,00</span>
+                    <span class="products-cards__title">Frango Catupiry</span>
+                    <p class="products-cards__text">Molho, mussarela, frango desfiado, catupiry</p>
                 </div>
                 <div class="products-cards__item-3">
-                    <img class="products-cards__img-3" src="./assets/pizzas/queijo.png" alt="">
-                    <div id="addBtn3">
-                        <button class="fa-solid fa-circle-plus"></button>
+                    <div class="cards__container-3">
+                        <img class="products-cards__img-3" src="./assets/pizzas/queijo.png" alt="">
+                        <div id="addBtn3">
+                            <button class="fa-solid fa-circle-plus"></button>
+                        </div>
                     </div>
-                    <span class="products-cards__price">R$ 99,99</span>
-                    <span class="products-cards__title">Título</span>
-                    <p class="products-cards__text">Descrição aleatória.</p>
+                    <span class="products-cards__price">R$ 55,99</span>
+                    <span class="products-cards__title">Estrogonofe Carne</span>
+                    <p class="products-cards__text">Molho, mussarela, estrogonofe de carne, batata palha</p>
                 </div>
                 <div class="products-cards__item-4">
-                    <img class="products-cards__img-4" src="./assets/pizzas/queijo.png" alt="">
-                    <div id="addBtn4">
-                        <button class="fa-solid fa-circle-plus"></button>
+                    <div class="cards__container-4">
+                        <img class="products-cards__img-4" src="./assets/pizzas/queijo.png" alt="">
+                        <div id="addBtn4">
+                            <button class="fa-solid fa-circle-plus"></button>
+                        </div>
                     </div>
-                    <span class="products-cards__price">R$ 99,99</span>
-                    <span class="products-cards__title">Título</span>
-                    <p class="products-cards__text">Descrição aleatória.</p>
+                    <span class="products-cards__price">R$ 45,99</span>
+                    <span class="products-cards__title">4 Queijos</span>
+                    <p class="products-cards__text">Molho, mussarela, provolone, parmesão, catupiry</p>
                 </div>
                 <div class="products-cards__item-5">
-                    <img class="products-cards__img-5" src="./assets/pizzas/queijo.png" alt="">
-                    <div id="addBtn5">
-                        <button class="fa-solid fa-circle-plus"></button>
+                    <div class="cards__container-5">
+                        <img class="products-cards__img-5" src="./assets/pizzas/queijo.png" alt="">
+                        <div id="addBtn5">
+                            <button class="fa-solid fa-circle-plus"></button>
+                        </div>
                     </div>
-                    <span class="products-cards__price">R$ 99,99</span>
-                    <span class="products-cards__title">Título</span>
-                    <p class="products-cards__text">Descrição aleatória.</p>
+                    <span class="products-cards__price">R$ 47,99</span>
+                    <span class="products-cards__title">5 Queijos</span>
+                    <p class="products-cards__text">Molho, mussarela, provolone, parmesão, catupiry, cheddar</p>
                 </div>
                 <div class="products-cards__item-6">
-                    <img class="products-cards__img-6" src="./assets/pizzas/queijo.png" alt="">
-                    <div id="addBtn6">
-                        <button class="fa-solid fa-circle-plus"></button>
+                    <div class="cards__container-6">
+                        <img class="products-cards__img-6" src="./assets/pizzas/queijo.png" alt="">
+                        <div id="addBtn6">
+                            <button class="fa-solid fa-circle-plus"></button>
+                        </div>
                     </div>
-                    <span class="products-cards__price">R$ 99,99</span>
-                    <span class="products-cards__title">Título</span>
-                    <p class="products-cards__text">Descrição aleatória.</p>
+                    <span class="products-cards__price">R$ 50,00</span>
+                    <span class="products-cards__title">6 Queijos</span>
+                    <p class="products-cards__text">Molho, mussarela, provolone, parmesão, gorgonzola, cheddar, catupiry</p>
                 </div>
             </div>
             <div id="cart">
@@ -150,11 +170,13 @@
         </div>
         <div id="modal" class="background-modal">
             <div class="modal-pizza">
-                <img src="./assets/pizzas/queijo.png" alt="" id="" class="modal-pizza__img">
+                <div class="modal-pizza__img-container">
+                    <img src="./assets/pizzas/queijo.png" alt="" id="" class="modal-pizza__img">
+                </div>
                 <div class="modal-pizza__details">
-                    <h1 class="modal-pizza__tx-title">Sabor da Pizza</h1>
-                    <div class="modal-pizza__tx-ingredientes">Descrição aleatória</div>
-                    <div class="modal-pizza__tx-tamanho">Tamanho</div>
+                    <h2 class="modal-pizza__tx-title">Sabor da Pizza</h2>
+                    <h2 class="modal-pizza__tx-ingredientes">Descrição aleatória</h2>
+                    <h2 class="modal-pizza__tx-tamanho">Tamanho</h2>
                     <div class="modal-pizza__controle-tamanhos">
                         <button id="smallBtn" class="modal-pizza__tamanho-1">Pequena <span>320g</span></button>
                         <button id="mediumBtn" class="modal-pizza__tamanho-2">Média <span>530g</span></button>

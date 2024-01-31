@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalCancelBtn = document.querySelector("#modalCancelBtn");
     const modalAddBtn = document.querySelector("#modalAddBtn");
 
-    let geralCounter = 0;
-    let cartCounter = 0;
-    let modalCounter = 0;
+    let geralCounter = 0;   //  Contador do botão carrinho da janela principal.
+    let cartCounter = 0;    //  Contador da janela do carrinho (aberta). 
+    let modalCounter = 0;   //  Contador da janela do modal.
 
     topCartContainer.addEventListener("click", () => {  //  Evento de clique no botão do carrinho na página principal.
         cart.classList.toggle("active");
@@ -137,9 +137,10 @@ document.addEventListener("DOMContentLoaded", () => {
     function increaseGeralCounterFromCart() {
         if (cartCounter > 0) {
         geralCounter += cartCounter;
-        cartCounter = 0;
+        cartCounter = modalCounter;
         document.getElementById('geralCounter').innerText = geralCounter;
         document.getElementById('cartCounter').innerText = cartCounter;
+        document.getElementById('modalCounter').innerText = modalCounter;
         }
     }
 });
