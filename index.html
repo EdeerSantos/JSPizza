@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/vars.css">
     <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/vars.css">
     <link
       rel="stylesheet"
       data-purpose="Layout StyleSheet"
@@ -38,135 +38,149 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
-    <title>Projeto JS Pizzaria</title>
+    <title>Pizzaria Sabor Divino</title>
 </head>
 <body>
-    <header class="top">
-        <h1 class="top__brand">JS Pizzas
-            <span class="top__title">Menu</span>
-        </h1>
-    </header>
-    <div class="home">
-        
-    </div>
-    <main>
-        <div class="nav__main">
+    <header class="back__top">
+        <div class="top">
+            <div class="nav__top">
+                <h1 class="top__brand">Pizzaria Sabor</h1>
+                <span class="top__title">Divino</span>
+            </div>
             <div id="topCartContainer">
                 <h2 id="geralCounter">0</h2>
                 <i class="fa-regular fa-cart-shopping"></i>
             </div>
         </div>
-        <div class="back__products-cards">
-            <div class="products-cards">
-                <div class="products-cards__item-1">
-                    <div class="cards__container-1">
-                        <img class="products-cards__img-1" src="./assets/pizzas/queijo.png" alt="">
-                        <div id="addBtn1">
-                            <button class="fa-solid fa-circle-plus"></button>
-                        </div>
+    </header>
+    <div class="back__home">
+        <div class="home">
+            <div class="home__txt-container">
+                <div class="home__txt">
+                    <div class="home__txt-i">
+                        <i class="fa-thin fa-pizza"></i>
                     </div>
-                    <span class="products-cards__price">R$ 49,99</span>
-                    <span class="products-cards__title">Portuguesa</span>
-                    <p class="products-cards__text">Molho, mussarela, calabresa e catupiry</p>
-                </div>
-                <div class="products-cards__item-2">
-                    <div class="cards__container-2">
-                        <img class="products-cards__img-2" src="./assets/pizzas/queijo.png" alt="">
-                        <div id="addBtn2">
-                            <button class="fa-solid fa-circle-plus"></button>
-                        </div>
-                    </div>
-                    <span class="products-cards__price">R$ 37,00</span>
-                    <span class="products-cards__title">Frango Catupiry</span>
-                    <p class="products-cards__text">Molho, mussarela, frango desfiado, catupiry</p>
-                </div>
-                <div class="products-cards__item-3">
-                    <div class="cards__container-3">
-                        <img class="products-cards__img-3" src="./assets/pizzas/queijo.png" alt="">
-                        <div id="addBtn3">
-                            <button class="fa-solid fa-circle-plus"></button>
-                        </div>
-                    </div>
-                    <span class="products-cards__price">R$ 55,99</span>
-                    <span class="products-cards__title">Estrogonofe Carne</span>
-                    <p class="products-cards__text">Molho, mussarela, estrogonofe de carne, batata palha</p>
-                </div>
-                <div class="products-cards__item-4">
-                    <div class="cards__container-4">
-                        <img class="products-cards__img-4" src="./assets/pizzas/queijo.png" alt="">
-                        <div id="addBtn4">
-                            <button class="fa-solid fa-circle-plus"></button>
-                        </div>
-                    </div>
-                    <span class="products-cards__price">R$ 45,99</span>
-                    <span class="products-cards__title">4 Queijos</span>
-                    <p class="products-cards__text">Molho, mussarela, provolone, parmesão, catupiry</p>
-                </div>
-                <div class="products-cards__item-5">
-                    <div class="cards__container-5">
-                        <img class="products-cards__img-5" src="./assets/pizzas/queijo.png" alt="">
-                        <div id="addBtn5">
-                            <button class="fa-solid fa-circle-plus"></button>
-                        </div>
-                    </div>
-                    <span class="products-cards__price">R$ 47,99</span>
-                    <span class="products-cards__title">5 Queijos</span>
-                    <p class="products-cards__text">Molho, mussarela, provolone, parmesão, catupiry, cheddar</p>
-                </div>
-                <div class="products-cards__item-6">
-                    <div class="cards__container-6">
-                        <img class="products-cards__img-6" src="./assets/pizzas/queijo.png" alt="">
-                        <div id="addBtn6">
-                            <button class="fa-solid fa-circle-plus"></button>
-                        </div>
-                    </div>
-                    <span class="products-cards__price">R$ 50,00</span>
-                    <span class="products-cards__title">6 Queijos</span>
-                    <p class="products-cards__text">Molho, mussarela, provolone, parmesão, gorgonzola, cheddar, catupiry</p>
+                    <h2>Na Sabor Divino, acreditamos que cada momento especial merece o toque único de uma pizza deliciosamente preparada. Seja para uma noite descontraída em casa, uma reunião animada com amigos ou um jantar romântico, nossas pizzas artesanais estão prontas para transformar cada ocasião em uma experiência gastronômica memorável.</h2>
                 </div>
             </div>
-            <div id="cart">
-                <h1 class="cart__title">Suas Pizzas</h1>
-                <div id="cartItem">
-                    <img src="./assets/pizzas/queijo.png" alt="" class="cart__item-img">
-                    <div class="cart__item-txt">
-                        <h2 class="cart__item-description">Portuguesa (G)</h2>
-                        <h2 class="cart__item-price">R$ 59,90</h2>
-                    </div>
-                    <div class="cart__qt-control">
-                        <div id="removeItem">
-                            <a href="#">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="4" viewBox="0 0 26 4" fill="none">
-                                    <path d="M25.25 3.66665H0.75V0.333313H25.25V3.66665Z" fill="black"/>
-                                  </svg>
-                            </a>
-                        </div>
-                        <span id="cartCounter">0</span>
-                            <div id="addItem">
-                                <a href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
-                                    <path d="M25.25 13.6666H14.75V23.6666H11.25V13.6666H0.75V10.3333H11.25V0.333313H14.75V10.3333H25.25V13.6666Z" fill="black"/>
-                                    </svg>
-                                </a>
+        </div>
+    </div>
+    <main>
+        <div class="nav__main">
+        </div>
+        <div class="back__products-cards">
+            <div class="products-cards__container">
+                <div class="products-cards">
+                    <div class="products-cards__item-1">
+                        <div class="cards__container-1">
+                            <img class="products-cards__img-1" src="./assets/pizzas/queijo.png" alt="">
+                            <div id="addBtn1">
+                                <button class="fa-solid fa-circle-plus"></button>
                             </div>
+                        </div>
+                        <span class="products-cards__price">R$ 49,99</span>
+                        <span class="products-cards__title">Portuguesa</span>
+                        <p class="products-cards__text">Molho, mussarela, calabresa e catupiry</p>
                     </div>
-                </div>
-                <div class="cart__container-1">
-                    <h2>Subtotal</h2>
-                    <h2>R$0,00</h2>
-                </div>
-                <div class="cart__container-2">
-                    <h2>Desconto (10%)</h2>
-                    <h2>R$0,00</h2>
-                </div>
-                <div class="cart__container-3">
-                    <h2>Total</h2>
-                    <h2>R$0,00</h2>
-                </div>
-                <div class="cart__Confirm-Btn">
-                    <button id="cartConfirmBtn">
-                        <h2>Confirmar</h2>
-                    </button>
+                    <div class="products-cards__item-2">
+                        <div class="cards__container-2">
+                            <img class="products-cards__img-2" src="./assets/pizzas/queijo.png" alt="">
+                            <div id="addBtn2">
+                                <button class="fa-solid fa-circle-plus"></button>
+                            </div>
+                        </div>
+                        <span class="products-cards__price">R$ 37,00</span>
+                        <span class="products-cards__title">Frango Catupiry</span>
+                        <p class="products-cards__text">Molho, mussarela, frango desfiado, catupiry</p>
+                    </div>
+                    <div class="products-cards__item-3">
+                        <div class="cards__container-3">
+                            <img class="products-cards__img-3" src="./assets/pizzas/queijo.png" alt="">
+                            <div id="addBtn3">
+                                <button class="fa-solid fa-circle-plus"></button>
+                            </div>
+                        </div>
+                        <span class="products-cards__price">R$ 55,99</span>
+                        <span class="products-cards__title">Estrogonofe Carne</span>
+                        <p class="products-cards__text">Molho, mussarela, estrogonofe de carne, batata palha</p>
+                    </div>
+                    <div class="products-cards__item-4">
+                        <div class="cards__container-4">
+                            <img class="products-cards__img-4" src="./assets/pizzas/queijo.png" alt="">
+                            <div id="addBtn4">
+                                <button class="fa-solid fa-circle-plus"></button>
+                            </div>
+                        </div>
+                        <span class="products-cards__price">R$ 45,99</span>
+                        <span class="products-cards__title">4 Queijos</span>
+                        <p class="products-cards__text">Molho, mussarela, provolone, parmesão, catupiry</p>
+                    </div>
+                    <div class="products-cards__item-5">
+                        <div class="cards__container-5">
+                            <img class="products-cards__img-5" src="./assets/pizzas/queijo.png" alt="">
+                            <div id="addBtn5">
+                                <button class="fa-solid fa-circle-plus"></button>
+                            </div>
+                        </div>
+                        <span class="products-cards__price">R$ 47,99</span>
+                        <span class="products-cards__title">5 Queijos</span>
+                        <p class="products-cards__text">Molho, mussarela, provolone, parmesão, catupiry, cheddar</p>
+                    </div>
+                    <div class="products-cards__item-6">
+                        <div class="cards__container-6">
+                            <img class="products-cards__img-6" src="./assets/pizzas/queijo.png" alt="">
+                            <div id="addBtn6">
+                                <button class="fa-solid fa-circle-plus"></button>
+                            </div>
+                        </div>
+                        <span class="products-cards__price">R$ 50,00</span>
+                        <span class="products-cards__title">6 Queijos</span>
+                        <p class="products-cards__text">Molho, mussarela, provolone, parmesão, gorgonzola, cheddar, catupiry</p>
+                    </div>
+                    <aside id="cart">
+                        <h1 class="cart__title">Suas Pizzas</h1>
+                        <div id="cartItem">
+                            <img src="./assets/pizzas/queijo.png" alt="" class="cart__item-img">
+                            <div class="cart__item-txt">
+                                <h2 class="cart__item-description">Portuguesa (G)</h2>
+                                <h2 class="cart__item-price">R$ 59,90</h2>
+                            </div>
+                            <div class="cart__qt-control">
+                                <div id="removeItem">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="4" viewBox="0 0 26 4" fill="none">
+                                            <path d="M25.25 3.66665H0.75V0.333313H25.25V3.66665Z" fill="black"/>
+                                          </svg>
+                                    </a>
+                                </div>
+                                <span id="cartCounter">0</span>
+                                    <div id="addItem">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24" fill="none">
+                                            <path d="M25.25 13.6666H14.75V23.6666H11.25V13.6666H0.75V10.3333H11.25V0.333313H14.75V10.3333H25.25V13.6666Z" fill="black"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="cart__container-1">
+                            <h2>Subtotal</h2>
+                            <h2>R$0,00</h2>
+                        </div>
+                        <div class="cart__container-2">
+                            <h2>Desconto (10%)</h2>
+                            <h2>R$0,00</h2>
+                        </div>
+                        <div class="cart__container-3">
+                            <h2>Total</h2>
+                            <h2>R$0,00</h2>
+                        </div>
+                        <div class="cart__Confirm-Btn">
+                            <button id="cartConfirmBtn">
+                                <h2>Confirmar</h2>
+                            </button>
+                        </div>
+                    </aside>
                 </div>
             </div>
         </div>
